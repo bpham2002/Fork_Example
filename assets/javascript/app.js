@@ -35,9 +35,9 @@ $(document).ready(function() {
             Email: $("#email").val().trim(),
             Message: $("#textarea1").val().trim()
         })
+        $("#first_name").val('');
+        $("#last_name").val('');
+        $("#email").val('');
+        $("#textarea1").val('');
     });
-    $("#first_name").empty();
-    $("#last_name").empty();
-    $("#email").empty();
-    $("#textarea1").empty();
 });
