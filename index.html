@@ -36,13 +36,18 @@
         <div class="parallax"><img id="top-image" src="./assets/images/taproom.jpg" style="display: block; transform: translate3d(-50%, 100px, 0px);"></div>
     </div>
     <div class="section no-pad-bot" id="index-banner">
-        <div class="container">
+        <div class="container" id="searchDiv">
             <br><br>
-            <h1 class="header center blue-text">Beer Search</h1>
+            <h1 class="header center blue-text" id="mainTitle">Pick a Pal</h1>
             <div class="row center">
                 <div class="input-field col s6">
-                    <input value="" id="beer_name" type="text" class="validate">
-                    <label class="active" for="beer_name">Beer Name</label>
+                    <select class="icons" id="petDropdown">
+                  <option value="" disabled selected>Adopt a Pet</option>
+                  <option value="" data-icon="assets/images/puppers.jpg" class="left circle">Puppers</option>
+                  <option value="" data-icon="assets/images/kittens.jpg" class="left circle">Kittehs</option>
+                  <option value="" data-icon="assets/images/puppy_cat.jpg" class="left circle">GIVE ME ALL THE FLOOFS!</option>
+                </select>
+                    <label></label>
                 </div>
                 <div class="input-field col s6">
                     <input value="" id="zipcode" type="text" class="validate">
@@ -54,6 +59,24 @@
             </div>
 
 
+            <!-- onclick collapsible list for Beer Names or Location and map -->
+
+            <!-- <div class="collapsible-list">
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i><img src="https://s3-media3.fl.yelpcdn.com/bphoto/NUcu84cWc9v48ujoafKOhA/o.jpg"style="width:100px;height:100px;">Barley Forge</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+          </ul>
+        </div> -->
         </div>
     </div>
     <div class="parallax-container">
