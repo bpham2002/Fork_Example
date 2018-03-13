@@ -4,6 +4,7 @@ $(".button-collapse").sideNav();
 $(document).ready(function() {
     $('.parallax').parallax();
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 =======
     $('select').material_select();
@@ -52,6 +53,16 @@ $(document).on('click', '#next-button', function() {
 })
 
 
+=======
+    $('select').material_select();
+});
+
+$("#download-button").on("click", function() {
+    console.log("yay")
+    $(".input-field").empty();
+    $("#download-button").remove();
+});
+>>>>>>> c9d072b2571631896ceb420b43cca79d415a4783
 $(document).ready(function() {
     // Initialize Firebase
     var config = {
@@ -81,5 +92,9 @@ $(document).ready(function() {
         $("#email").val('');
         $("#textarea1").val('');
     });
+<<<<<<< HEAD
 });
 >>>>>>> upstream/master
+=======
+});
+>>>>>>> c9d072b2571631896ceb420b43cca79d415a4783
